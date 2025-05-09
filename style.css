@@ -23,7 +23,7 @@
   --transition-fast: all 0.2s ease-in-out;
   
   /* Borders */
-  --border-radius: 12px;
+  --border-radius: 11px;
   --border-radius-lg: 20px;
 }
 
@@ -36,7 +36,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 body {
@@ -302,8 +302,8 @@ header.scrolled {
 .hero-image::before {
   content: '';
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 30%;
+  height: 50%;
   border: 3px solid var(--primary-color);
   border-radius: var(--border-radius-lg);
   top: 20px;
@@ -313,8 +313,8 @@ header.scrolled {
 }
 
 .hero-image img {
-  width: 100%;
-  max-width: 450px;
+  width: 40%;
+  max-width: 250px;
   border-radius: var(--border-radius-lg);
   box-shadow: var(--shadow-lg);
   transform: perspective(1000px) rotateY(-15deg);
